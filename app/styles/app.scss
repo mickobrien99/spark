@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@import
+  // Settings Variables
+  "./app/variables",
+  //Icons
+  "../bower_components/ionic/scss/ionic",
+  // APP SPECIFIC STYLES
+  "./app/core/structure";

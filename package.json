@@ -1,0 +1,43 @@
+{
+  "name": "sparkApp",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "convict": "latest",
+    "browser-sync": "latest",
+    "opn": "latest",
+    "psi": "latest",
+    "require-dir": "latest",
+    "run-sequence": "latest",
+    "del": "latest",
+    "gulp": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-cache": "latest",
+    "gulp-changed": "latest",
+    "gulp-size": "latest",
+    "gulp-flatten": "latest",
+    "gulp-if": "latest",
+    "gulp-filter": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-ruby-sass": "latest",
+    "gulp-replace": "latest",
+    "gulp-jshint": "latest",
+    "jshint-stylish": "latest",
+    "gulp-ng-annotate": "latest",
+    "gulp-template": "latest",
+    "gulp-angular-templatecache": "latest",
+    "gulp-preprocess": "latest",
+    "gulp-useref": "latest",
+    "gulp-minify-html": "latest",
+    "gulp-uglify": "latest",
+    "gulp-uncss": "latest",
+    "gulp-csso": "latest",
+    "gulp-rev": "latest",
+    "gulp-rev-replace": "latest"
+  },
+  "engines": {
+    "node": ">=0.11.1"
+  },
+  "private": true
+}
