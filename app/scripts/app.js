@@ -8,7 +8,11 @@ var sparkApp = angular.module('sparkApp', [
 ]);
 
 
-sparkApp.config(function($stateProvider, $locationProvider, $urlRouterProvider, $translateProvider){
+sparkApp.config(function($stateProvider, $locationProvider, $urlRouterProvider, $translateProvider, $compileProvider){
+  //allow local assets CSP
+  $compileProvider.imgSrcSanitizationWhitelist(/^\s*(https?|ftp|file|chrome-extension):|data:image\//);
+  $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|chrome-extension):/);
+
   $stateProvider.state('app', {
     url: '',
     abstract: true,
